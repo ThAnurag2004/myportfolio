@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+header{
+    background-color: ;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+   list-style: none; 
+}
+
+a{
+    font-size: 1rem;
+    color: black;
+}
+
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.navbar .logo a{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar .links{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: bold;
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .links a:hover{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    transition: .2s ease-in-out;
+}
+
+@media (max-width: 700px){
+    .navbar .links {
+        display: none;
+    }
+}
+
+.home{
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.home .details{
+    width: auto;
+    height: auto;
+    margin-left: 10%;
+    padding: 2rem 2rem ;
+    margin-right: 10%;
+}
+
+.home .details h1{
+    font-size: 3.5rem;
+    color: orange;
+    font-weight: 800;
+    
+}
+
+.home .details h2{
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 800;  
+    margin-bottom: 10px; 
+}
+
+.home .details p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.home .details span{
+    color: orange;
+}
+
+.btn{
+    padding: 1.5rem;
+    margin-left: -30px;
+    margin-top: 10%;
+}
+.btn a{
+    font-size: 2rem;
+    padding: 5.5px;
+}
+
+.project{
+    background: orange;
+    width: 99vw;
+    height: 100%;
+}
+
+.project h1{
+    font-size: 3rem;
+    padding: 3% 5%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+}
+.content{
+    padding: 16px;
+}
+
+.content h3{
+    color: black;
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+}
+
+.content p{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    background-color: orange;
+    border-radius: 20px;
+    margin-top: 10 10px;
+}
+
+.content .link a{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.content .link:hover{
+    background: #FA812F;
+}
+
+
